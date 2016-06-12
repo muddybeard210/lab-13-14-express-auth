@@ -1,0 +1,41 @@
+{
+  "name": "lab-matt",
+  "version": "0.0.1",
+  "description": "auth",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muddybeard210/lab-13-14-express-auth.git"
+  },
+  "author": "mattsmith203@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muddybeard210/lab-13-14-express-auth/issues"
+  },
+  "homepage": "https://github.com/muddybeard210/lab-13-14-express-auth#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "http-errors": "^1.5.0",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.1.0",
+    "mocha": "^2.5.3",
+    "superagent-promise-plugin": "^3.2.0",
+    "superagent-use": "0.0.1"
+  }
+}
