@@ -7,6 +7,7 @@ const httpErrors = require('http-errors');
 const debug = require('debug')('auth:server');
 const handleError = require('./lib/handle-error');
 const authRouter = require('./route/auth-router');
+const talentRouter = require('./route/talent-router');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -18,6 +19,7 @@ mongoose.connect(mongoURI);
 app.use(morgan('dev'));
 
 app.use('/api', authRouter);
+app.use('/api', talentRouter);
 
 app.all('*', function(req, res, next){
   debug('404 * route');
